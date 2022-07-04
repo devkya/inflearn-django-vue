@@ -73,6 +73,7 @@ sudo npm install -g @vue/cli
   - radio는 문자열로 소통함
   - readonly 속성이 있을 때 v-model을 사용할 필요 없음, v-bind:value="userId" => 단방향 공유
   - v-bind : attr 값을 변경할 때 사용함
+    - attr class 적용 가능 : 동적으로 클래스를 바인딩할 수 있음
   - v-for을 사용할 때는 attr key 가 반드시 필요
 
 * vue user snippets 등록
@@ -90,5 +91,8 @@ sudo npm install -g @vue/cli
 
 - v-html, v-model 등 directive
   Html 안에서 vue element 에서 사용되는 특별한 속성
+
   - v-model : 양방향으로 데이터가 전달됨
   - v-model.number : 숫자로 변환
+
+  * Event
